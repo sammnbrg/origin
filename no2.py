@@ -1,4 +1,3 @@
-# 2
 # Données météo journalières
 météo_semaine = [(12, 25, 0), (15, 28, 10), (14, 27, 5), (13, 24, 15), (11, 22, 8), (10, 20, 20), (12, 23, 0)]
 
@@ -21,5 +20,3 @@ print(jours_pluie)
 jours_chauds = list(filter(lambda jour: météo_semaine[jours_semaine.index(jour)][1] > 25, jours_semaine))
 
 print(jours_chauds)
-
-# e)
