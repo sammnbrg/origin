@@ -11,10 +11,5 @@ def racines_communes(ensemble1,ensemble2):
 
     return racines_non_communes, racines_totales, racines_paires_communes
 
-# 2
-# Données météo journalières
-données_météo = [(12, 25, 0), (15, 28, 10), (14, 27, 5), (13, 24, 15), (11, 22, 8), (10, 20, 20), (12, 23, 0)]
 
-# a
-amplitude_thermique = lambda météo: météo[1] - météo[0]
 
